@@ -6,7 +6,7 @@ def game_hash
    :players => [
      {
       :player_name => "Alan Anderson",
-      :number => "0",
+      :number => "0,
       :shoe => "16",
       :points => "22",
       :rebounds => "12",
@@ -124,7 +124,7 @@ def num_points_scored (players_name)
     if attribute == :players 
       data.each do |player| 
         if player[:player_name] === players_name
-          return player[:points].to_int
+          return player[:points]
         end
       end
     end
