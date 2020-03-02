@@ -68,7 +68,7 @@ def game_hash
    :colors => ["Turquoise", "Purple"],
    :players => [
      {
-       :player_name => "Jeff Adrien",
+      :player_name => "Jeff Adrien",
       :number => 4,
       :shoe => 18,
       :points => 10,
@@ -89,7 +89,7 @@ def game_hash
       :blocks => 15,
       :slam_dunks => 10
      }, {
-       :player_name => "DeSagna Diop",
+      :player_name => "DeSagna Diop",
       :number => 2,
       :shoe => 14,
       :points => 24,
@@ -100,7 +100,7 @@ def game_hash
       :slam_dunks => 5
      },
      {
-       :player_name => "Ben Gordon",
+      :player_name => "Ben Gordon",
       :number => 8,
       :shoe => 15,
       :points => 33,
@@ -111,7 +111,7 @@ def game_hash
       :slam_dunks => 0
      },
      {
-       :player_name => "Brendan Haywood",
+      :player_name => "Brendan Haywood",
       :number => 33,
       :shoe => 15,
       :points => 6,
