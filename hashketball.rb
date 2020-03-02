@@ -125,10 +125,9 @@ def shoe_size(name)
 end
 
 def team_colors(team_name)
-  if team_input.downcase == "charlotte hornets" 
-    return game_hash[:away][:colors]
-  else return game_hash[:home][:colors]
-  end
+  game_hash.each do |place,team|
+    if team [:team_name] == team_name
+      return team[:colors]
 end
 
 def team_names
